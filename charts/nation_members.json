@@ -1,0 +1,150 @@
+{
+    "type": "line",
+    "data": {
+        "datasets": [{
+            "label": "Upanis",
+			"backgroundColor": "rgba(255, 99, 132, 0.5)",
+			"borderColor": "rgb(255, 99, 132)",
+			"fill": false,
+			"data": [{
+				"x": "2019-09-13",
+				"y": 8
+			}, {
+				"x": "2019-09-14",
+				"y": 10
+			}, {
+				"x": "2019-09-15",
+				"y": 8
+			}, {
+				"x": "2019-09-16",
+				"y": 9
+			}, {
+				"x": "2019-09-17",
+				"y": 7
+			}, {
+				"x": "2019-09-21",
+				"y": 4
+			}, {
+				"x": "2019-12-10",
+				"y": 3
+			}, {
+				"x": "2020-01-07",
+				"y": 3
+			}]
+        }, {
+            "label": "Nirrisites / ReidmoRCS / NSTR",
+			"backgroundColor": "rgba(255, 159, 64, 0.5)",
+			"borderColor": "rgb(255, 159, 64)",
+			"fill": false,
+			"data": [{
+				"x": "2019-09-15",
+				"y": 1
+			}, {
+				"x": "2019-11-09",
+				"y": 0
+			}, {
+				"x": "2019-11-13",
+				"y": 1
+			}, {
+				"x": "2020-01-07",
+				"y": 0
+			}]
+        }, {
+            "label": "Geoa",
+			"backgroundColor": "rgba(255, 205, 86, 0.5)",
+			"borderColor": "rgb(255, 205, 86)",
+			"fill": false,
+			"data": [{
+				"x": "2019-09-15",
+				"y": 1
+			}, {
+				"x": "2019-09-17",
+				"y": 2
+			}, {
+				"x": "2019-09-21",
+				"y": 3
+			}, {
+				"x": "2019-11-09",
+				"y": 4
+			}, {
+				"x": "2019-11-12",
+				"y": 3
+			}, {
+				"x": "2019-11-13",
+				"y": 2
+			}, {
+				"x": "2019-12-10",
+				"y": 3
+			}, {
+				"x": "2020-01-07",
+				"y": 3
+			}]
+        }, {
+            "label": "Maffia",
+			"backgroundColor": "rgba(75, 192, 192, 0.5)",
+			"borderColor": "rgb(75, 192, 192)",
+			"fill": false,
+			"data": [{
+				"x": "2019-09-16",
+				"y": 1
+			}, {
+				"x": "2019-09-17",
+				"y": 0
+			}, {
+				"x": "2020-01-07",
+				"y": 0
+			}]
+        }, {
+            "label": "Sck",
+			"backgroundColor": "rgba(54, 162, 235, 0.5)",
+			"borderColor": "rgb(54, 162, 235)",
+			"fill": false,
+			"data": [{
+				"x": "2019-09-17",
+				"y": 3
+			}, {
+				"x": "2019-09-20",
+				"y": 4
+			}, {
+				"x": "2020-01-07",
+				"y": 5
+			}]
+        }, {
+            "label": "Nouba-Chips",
+			"backgroundColor": "rgba(201, 203, 207, 0.5)",
+			"borderColor": "rgb(201, 203, 207)",
+			"fill": false,
+			"data": [{
+				"x": "2019-11-12",
+				"y": 2
+			}, {
+				"x": "2020-01-07",
+				"y": 2
+			}]
+        }]
+    },
+    "options": {
+		"title": {
+			"text": "Nation Member Count"
+		},
+		"scales": {
+			"xAxes": [{
+				"type": "time",
+				"time": {
+					"parser": "YYYY-MM-DD",
+					"tooltipFormat": "ll"
+				},
+				"scaleLabel": {
+					"display": true,
+					"labelString": "Date"
+				}
+			}],
+			"yAxes": [{
+				"scaleLabel": {
+					"display": true,
+					"labelString": "value"
+				}
+			}]
+		}
+	}
+}
